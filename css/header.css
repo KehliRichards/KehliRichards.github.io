@@ -1,0 +1,6 @@
+.jumbotron {
+    background: url(../assets/img/bwTrees.jpg) center bottom 18%;
+    background-size: cover;
+    height: 30vh;
+    color: white;
+}
