@@ -1,8 +1,22 @@
-#navbarNav {
+.navbar {
+    /* background-image: linear-gradient(rgb(88, 0, 129), rgb(115, 0, 85), rgb(154, 0, 65), rgb(180, 0, 25), rgb(200, 0, 0), rgb(0, 0, 0)); */
+    /* background-image: linear-gradient(rgb(22, 127, 192), rgb(66, 163, 207), rgb(134, 199, 221), rgb(58, 156, 201), rgb(47, 140, 197), black); */
+    /* background-image: linear-gradient(steelblue, deepskyblue, deepskyblue, skyblue, deepskyblue, dodgerblue, black); */
+    /* background-image: radial-gradient(rgb(210, 244, 255), lightblue, skyblue, skyblue, deepskyblue, steelblue, black); */
+    /* background-image: url(../assets/img/stars3.jpg); */
+    background-image: linear-gradient(to right, rgb(0, 62, 112), steelblue, deepskyblue, rgb(0, 174, 255), deepskyblue, steelblue, rgb(0, 62, 112));
+    height: 10vh;
+    z-index: 10;
+}
+
+.nav-item {
     font-family: var(--font-two);
+    color: white;
+    font-size: 20px;
 }
 
 .navbar-brand {
-    font-family: var(--font-three);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 24pt;
+    color: white;
 }

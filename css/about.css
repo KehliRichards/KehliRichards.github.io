@@ -1,0 +1,39 @@
+.br {
+    z-index: 20;
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 62, 112), steelblue, deepskyblue, dodgerblue, deepskyblue, steelblue, rgb(0, 62, 112));
+    margin-top: 65px;
+}
+
+
+#aboutH1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 75px;
+    font-family: var(--font-11);
+    margin-top: 50px;
+}
+
+
+#aboutImg {
+    position: absolute;
+    background-image: url(../assets/img/IMG_0021.jpg);
+    background-size: 100%;
+    height: 425px;
+    width: 325px;
+    margin-top: 70px;
+    margin-left: 155px;
+}
+
+
+#aboutP {
+
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: whitesmoke;
+    margin-left: 650px;
+    margin-top: 125px;
+    margin-bottom: 150px;
+}
